@@ -1,0 +1,16 @@
+version: '3'
+services:
+  build:
+      image: 'composer:latest'
+      working_dir: '/app'
+      volumes:
+        - .:/app
+      entrypoint: composer install
+  tests:
+    image: 'php:7.4-alpine'
+    working_dir: '/app'
+    volumes:
+      - .:/app
+    entrypoint: ./vendor/bin/phpunit tests
+    depends_on:
+      - build
