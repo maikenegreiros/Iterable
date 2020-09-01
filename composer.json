@@ -1,13 +1,16 @@
 {
     "name": "maike/iterable",
+    "description": "An abstract class that gives you the power of making your class iterable",
     "license": "MIT",
     "authors": [
         {
             "name": "Maike Negreiros",
-            "email": "maike_jbe@hotmail.com"
+            "email": "maike.anegreiros@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=7.4"
+    },
     "autoload": {
         "psr-4": {
             "Iterable\\": "./src",
