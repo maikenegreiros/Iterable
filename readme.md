@@ -9,7 +9,7 @@ public getItems(): Array<Items>
 }
 ```
 
-Unfortunatelly, PHP doesn't have this king of thing, that's why I created this abstract class
+Unfortunatelly, PHP doesn't have this kind of thing, that's why I created this abstract class
 
 ## Usage
 
