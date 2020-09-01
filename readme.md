@@ -44,3 +44,14 @@ foreach ($datesCollection as $key => $date) {
   // Do whatever you want
 }
 ```
+## Contributing
+
+### Run build
+```sh
+make build
+```
+
+### Run tests
+```sh
+make tests
+```
