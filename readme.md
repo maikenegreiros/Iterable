@@ -11,6 +11,13 @@ public getItems(): Array<Items>
 
 Unfortunatelly, PHP doesn't have this kind of thing, that's why I created this abstract class
 
+## Installing
+This package is installed via composer:
+
+```sh
+composer require maike/iterable
+```
+
 ## Usage
 
 In order to achieve a Collection that allows only one type in PHP, we have to create a class. In the following example, I'm creating a Collection Class extending the `Iterable\Iterator` abstract class
