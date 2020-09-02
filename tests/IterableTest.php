@@ -10,4 +10,9 @@ class IterableTest extends \PHPUnit\Framework\TestCase {
     }
     $this->assertEquals($result, $sum);
   }
+
+  public function testIsCountable() {
+    $collection = new \Tests\IntCollection(2,32,6);
+    $this->assertEquals(3, count($collection));
+  }
 }

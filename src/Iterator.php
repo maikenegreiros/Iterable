@@ -1,7 +1,7 @@
 <?php
 namespace Iterable;
 
-abstract class Iterator implements \Iterator {
+abstract class Iterator implements \Iterator, \Countable {
   private array $items;
   private $position = 0;
 
@@ -37,5 +37,10 @@ abstract class Iterator implements \Iterator {
   public function rewind(): void
   {
     $this->position = 0;
+  }
+
+  public function count(): int
+  {
+    return count($this->items);
   }
 }
