@@ -1,5 +1,9 @@
 # Iterable\Iterator
 
+![](https://img.shields.io/packagist/v/maike/iterable?style=for-the-badge)
+![](https://img.shields.io/packagist/l/maike/iterable?style=for-the-badge)
+![](https://img.shields.io/packagist/php-v/maike/iterable?style=for-the-badge)
+
 In other languages, like Java, you can use Collections that allows only one type. In TypeScript, for example we can do the following:
 
 ```ts
